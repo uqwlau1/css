@@ -128,12 +128,14 @@ BYO-CSS UI override
 
 /* Header */
     .appbar {
-    background: #51247a !important; 
+      background: #51247a !important; 
     }
     .appbar-header {
-    /* background: #51247a !important;*/
-    height: 83px !important;
-    max-width: 76rem !important;
+      height: 83px !important;
+      max-width: 82rem !important;
+      margin: 0 auto !important;
+      align-items: center !important;
+      box-sizing: border-box !important;
     }
     
     .appbar-header .get-tickets-button {
