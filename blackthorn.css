@@ -1,0 +1,215 @@
+/* CXUQE-295 transform banner to block */
+.floating-label {
+  background: none !important;
+  color: #ff0000 !important;
+  text-transform: none !important;
+  transform: none !important;
+  text-align: left !important;
+  position: relative !important;
+  padding: 1rem 0rem !important;
+  margin-bottom: 1rem;
+  top: auto !important;
+  right: auto !important;
+}
+
+.ticket-count-wrapper .status-text {
+  font-size: .825rem !important;
+  text-transform: none !important;
+}
+
+/* Reassign root colours */ 
+:root {
+    --errorColor: #951126;
+}
+
+/* ------
+Simple UI override 
+------ */ 
+
+/* Override main container
+(Found to override incorrectly on the tabbed UI)
+.details {
+    padding:5rem;
+}
+*/
+/* Override container dropshadow */
+.container {
+    padding:5rem;
+}
+
+.mat-elevation-z2, .mat-expansion-panel:not([class*=mat-elevation-z]) {
+    border: 1px solid #efedeb;
+    border-radius: .25rem;
+    box-shadow: 0 0.25rem 0.25rem rgb(43 42 41 / 5%);
+}
+
+/* Content override */
+.details h1.event-name {
+    color: #51247a;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0 auto 3rem;
+}
+
+.cover-image {
+    margin-bottom :3rem;
+}
+/* causes form fields to increase size FAQS tabbed UI
+.content {
+    margin-top: 3rem;
+}
+*/
+.content p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: calc(1.7rem*var(--lineHeightFactor));
+}
+
+/* ------
+Tabbed UI override 
+------ */ 
+
+    #main .cover-container, .bt-card {
+        border: 1px solid #efedeb;
+        border-radius: .25rem;
+        box-shadow: 0 0.25rem 0.25rem rgb(43 42 41 / 5%);
+    }
+
+    /* Main Cover image, set appropriate margin . */
+    /* Simple UI overrides */
+    @media (max-width: 37.4375rem) {
+        .cover-image {
+            margin-left: -1rem !important;
+        }
+    }
+    @media (min-width: 60rem) {
+        .cover-image {
+            width: calc(100% + 2rem) !important;
+            height: calc(32.5vw - 1rem);;
+            margin-left: -1rem !important;
+            margin-right: -1rem !important;
+            max-width: calc(100% + 2rem) !important;
+        }  
+    }
+
+    /* Tabbed UI overrides */
+    @media (min-width: 60rem) {
+        .cover-container .cover-image {
+            width: 100% !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            max-width: auto;        
+        }
+    }
+    @media (min-width: 80rem) {
+        .cover-container .cover-image {
+            width: 51.25rem !important; 
+        }
+    }
+
+.cover-container .cover-image {
+    margin-bottom: 0rem !important;
+}
+
+/* Header */
+    .appbar {
+    background: #51247a !important; 
+    }
+    .appbar-header {
+    /* background: #51247a !important;*/
+    height: 83px !important;
+    }
+    .appbar-header .back-button {
+        Color: #fff !important; 
+    }
+    .appbar-header .title {
+        Color: #fff !important; 
+        padding-left: 200px !important; 
+    }
+    .appbar-header .title {
+        width: 100%;
+        background: url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.png) no-repeat 0 0;
+        background: url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.svg) no-repeat 0 0;
+    }
+    @media (max-width: 37.4375rem){
+        .appbar-header{
+          background: #fff !important;
+          height: auto !important; 
+          padding: 0 !important; 
+        }  
+    }
+    @media (max-width: 37.4375rem) {
+        .overview {
+            margin-bottom: 0 !important; 
+            box-shadow: none !important;
+        }
+    }
+
+    @media (max-width: 59.9375rem) {
+        .overview {
+            box-shadow: none !important;
+        }   
+    }
+
+    @media (min-width: 37.5rem) and (max-width: 59.9375rem) {
+        
+    }
+
+
+#main .price {
+    margin-top:0;
+}
+
+/* make icons same colour as UQ pages (too many variants recommend we leave as default.*/
+#main .mat-icon {
+    color:#51247a;
+}
+
+/* Hide the dropdowns for topics, days and tracks on the session screen */ 
+
+.sessions-wrapper .filter-content:nth-child(2) {
+display: none !important ;
+}
+
+/* Hide the price items in the summary panel on the right */ 
+
+.card-body .row-space-between, .card-body .divider {
+display: none !important;
+}
+
+/* CSS for the floating label on Simple and Tabbed (step 1) */
+/* CXUQE-295 transform banner to block */
+.floating-label {
+    background: #951126 !important;
+    color: #FFF !important;
+    text-transform: none !important;
+    transform: none !important;
+    text-align: left !important;
+    position: relative !important;
+    padding: 1rem 1rem !important;
+    margin-bottom: 1rem;
+    top: auto !important;
+    right: auto !important;
+   }
+
+/* CSS for Tabbed (step 2) */
+.ticket-count-wrapper .status-text {
+    font-size: .825rem !important;
+    text-transform: none !important;
+    }
+
+/* There was no padding at smallest mobile size */
+@media (max-width: 37.4375rem) {
+    .details {
+        padding: 1rem !important;
+    }
+}
+
+/* ------
+BYO CSS UI override 
+------ */ 
+
+/* Header changes */
+.page-event-details .appbar {
+    background-color: #51247a;
+}
