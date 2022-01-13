@@ -131,9 +131,9 @@ BYO-CSS UI override
       background: #51247a !important; 
     }
     .appbar-header {
-      height: 70px !important;
-      max-width: 82rem !important;
-      margin: 15 auto 0 !important;
+      height: 55px !important;
+      max-width: 76rem !important;
+      margin: 15px auto !important;
       align-items: center !important;
       box-sizing: border-box !important;
       background-size: 180px !important;
@@ -146,8 +146,13 @@ BYO-CSS UI override
     .appbar-header .back-button {
         Color: #fff !important; 
     }
-    .appbar-header .title, .appbar-header .appbar-title {
+    .appbar-header .appbar-title {
         Color: #fff !important; 
+        padding-left: 160px !important; 
+    }
+    .appbar-header .title {
+        Color: #fff !important;   
+        margin: .67rem 0 !important;
         padding-left: 200px !important; 
     }
     .appbar-header .title, .appbar-header {
