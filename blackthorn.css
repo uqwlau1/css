@@ -75,10 +75,10 @@ Tabbed UI override
         box-shadow: 0 0.25rem 0.25rem rgb(43 42 41 / 5%);
     }
 
-    #main .cover-container .organizer-name
-    ,#main .cover-container .starting-price,
-    ,#main .cover-container .description,
-    ,#main .cover-container .details{
+    #main .cover-container .organizer-name,
+    #main .cover-container .starting-price,
+    #main .description,
+    #main .details{
         display: none !important;
     }
 
