@@ -210,6 +210,11 @@ display: none !important;
     display: none;
 }
 
+/* Remove back button */
+button.back-button {
+    display: none;
+}
+
 /* ------
 BYO CSS UI override 
 ------ */ 
