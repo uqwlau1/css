@@ -141,12 +141,10 @@ BYO-CSS UI override
     .appbar-header .get-tickets-button {
         display: none !important;
     }
-    .appbar-header .appbar-title {
-/*      Color: #fff !important; 
-        padding-left: 200px !important;  */
-        display: none !important;
-    }
     .appbar-header button.back-button {
+        display: none !important;
+    } 
+    .appbar-header .appbar-title {
         display: none !important;
     }
     .appbar-header .title {
@@ -161,7 +159,6 @@ BYO-CSS UI override
     }
     @media (max-width: 37.4375rem){
         .appbar-header{
-          background: #fff !important;
           height: auto !important; 
           padding: 0 !important; 
         }  
@@ -170,6 +167,12 @@ BYO-CSS UI override
         .overview {
             margin-bottom: 0 !important; 
             box-shadow: none !important;
+        }
+        .appbar-header {
+            margin-left: 10px !important;
+        }
+        .appbar-header .title {
+            display: none !important;
         }
     }
 
