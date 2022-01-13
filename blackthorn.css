@@ -138,17 +138,16 @@ BYO-CSS UI override
       box-sizing: border-box !important;
       background-size: 180px !important;
     }
-    
     .appbar-header .get-tickets-button {
         display: none !important;
     }
-
-    .appbar-header .back-button {
-        Color: #fff !important; 
-    }
     .appbar-header .appbar-title {
-        Color: #fff !important; 
-        padding-left: 200px !important; 
+/*      Color: #fff !important; 
+        padding-left: 200px !important;  */
+        display: none !important;
+    }
+    .appbar-header button.back-button {
+        display: none !important;
     }
     .appbar-header .title {
         Color: #fff !important;   
@@ -160,11 +159,6 @@ BYO-CSS UI override
         background: url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.png) no-repeat 0 0;
         background: url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.svg) no-repeat 0 0;
     }
-
-    .appbar-header button.back-button {
-        display: none !important;
-    }
-
     @media (max-width: 37.4375rem){
         .appbar-header{
           background: #fff !important;
