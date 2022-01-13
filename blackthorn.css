@@ -205,6 +205,11 @@ display: none !important;
     }
 }
 
+/* Remove payment email from payment screen */
+.payment-card .mat-form-field-type-mat-input {
+    display: none;
+}
+
 /* ------
 BYO CSS UI override 
 ------ */ 
