@@ -78,12 +78,12 @@ Tabbed UI override
     #main .cover-container .organizer-name,
     #main .cover-container .starting-price,
     #main .description,
-    #main .details{
+    #main .bt-card{
         display: none !important;
     }
 
     .content-container {
-        padding: 120px 0 100px;
+        padding: 120px 0 100px !important;
     }
    
     #main .price {
@@ -134,17 +134,23 @@ Tabbed UI override
     /* background: #51247a !important;*/
     height: 83px !important;
     }
+    
+    .appbar-header .get-tickets-button {
+        display: none !important;
+    }
+
     .appbar-header .back-button {
         Color: #fff !important; 
     }
     .appbar-header .title, .appbar-header .appbar-title {
         Color: #fff !important; 
-        padding-left: 200px !important; 
+        padding-left: 220px !important; 
     }
     .appbar-header .title, .appbar-header .appbar-title {
         width: 100%;
         background: url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.png) no-repeat 0 0;
         background: url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.svg) no-repeat 0 0;
+        backgroud-size: 125px;
     }
     @media (max-width: 37.4375rem){
         .appbar-header{
