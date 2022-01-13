@@ -75,8 +75,19 @@ Tabbed UI override
         box-shadow: 0 0.25rem 0.25rem rgb(43 42 41 / 5%);
     }
 
-    #main .cover-container .price {
-        display: none;
+    #main .cover-container .organizer-name
+    ,#main .cover-container .starting-price,
+    ,#main .cover-container .description,
+    ,#main .cover-container .details{
+        display: none !important;
+    }
+
+    .content-container {
+        padding: 120px 0 100px;
+    }
+   
+    #main .price {
+        margin-top:0;
     }
 
     /* Main Cover image, set appropriate margin . */
@@ -126,11 +137,11 @@ Tabbed UI override
     .appbar-header .back-button {
         Color: #fff !important; 
     }
-    .appbar-header .title {
+    .appbar-header .title, .appbar-header .appbar-title {
         Color: #fff !important; 
         padding-left: 200px !important; 
     }
-    .appbar-header .title {
+    .appbar-header .title, .appbar-header .appbar-title {
         width: 100%;
         background: url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.png) no-repeat 0 0;
         background: url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.svg) no-repeat 0 0;
@@ -159,10 +170,10 @@ Tabbed UI override
         
     }
 
-
-#main .price {
-    margin-top:0;
-}
+    /* Remove back button */
+    button.back-button {
+        display: none;
+    }
 
 /* make icons same colour as UQ pages (too many variants recommend we leave as default.*/
 #main .mat-icon {
@@ -211,11 +222,6 @@ display: none !important;
 
 /* Remove payment email from payment screen */
 .payment-card .mat-form-field-type-mat-input {
-    display: none;
-}
-
-/* Remove back button */
-button.back-button {
     display: none;
 }
 
