@@ -104,7 +104,9 @@ BYO-CSS UI override
     #main .cover-container .organizer-name,
     #main .cover-container .starting-price,
     #main .description,
-    #main .bt-card{
+    #main .bt-card,
+    .actions .done-btn,
+    .status-card .success-image{
         display: none !important;
     }
 
