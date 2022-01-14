@@ -26,15 +26,24 @@
 Simple UI override 
 ------ */ 
 
-/* Override main container
-(Found to override incorrectly on the tabbed UI)
 .details {
-    padding:5rem;
+    padding: 20rem !important;
 }
-*/
+
+.cover-image {
+    display: none !important;
+}
+  
 /* Override container dropshadow */
 .container {
     padding:5rem;
+}
+
+#main .header {
+    height: 90px !important;
+    background: #51247a url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.png) no-repeat 15px 15px !important;
+    background: #51247a url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.svg) no-repeat 15px 15px !important;
+    background-size: 180px !important;
 }
 
 .mat-elevation-z2, .mat-expansion-panel:not([class*=mat-elevation-z]) {
@@ -46,7 +55,7 @@ Simple UI override
 /* Content override */
 .details h1.event-name {
     color: #51247a;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     margin: 0 auto 3rem;
 }
@@ -83,7 +92,7 @@ BYO-CSS UI override
     }
 
     .content-container {
-        padding: 120px 0 100px !important;
+        padding: 100px 0 0px !important;
     }
    
     #main .price {
