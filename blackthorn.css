@@ -28,11 +28,26 @@ Simple UI override
 
 .details {
     width: 20rem !important;
+    border: none !important;
 }
 
 .cover-image {
     display: none !important;
 }
+
+@media (max-width: 60rem) {
+    body {
+        background: #ffffff; !important;
+    }
+    .details {
+        margin: 0px auto !important;
+    }
+}
+
+.mobile-active {
+    max-width: 90% !important;
+    padding: 20px !important;
+    margin: 0px auto !important;
   
 /* Override container dropshadow */
 .container {
@@ -98,42 +113,6 @@ BYO-CSS UI override
     #main .price {
         margin-top:0;
     }
-
-    /* Main Cover image, set appropriate margin . */
-    /* Simple UI overrides */
-    @media (max-width: 37.4375rem) {
-        .cover-image {
-            margin-left: -1rem !important;
-        }
-    }
-    @media (min-width: 60rem) {
-        .cover-image {
-            width: calc(100% + 2rem) !important;
-            height: calc(32.5vw - 1rem);;
-            margin-left: -1rem !important;
-            margin-right: -1rem !important;
-            max-width: calc(100% + 2rem) !important;
-        }  
-    }
-
-    /* Tabbed UI overrides */
-    @media (min-width: 60rem) {
-        .cover-container .cover-image {
-            width: 100% !important;
-            margin-left: 0 !important;
-            margin-right: 0 !important;
-            max-width: auto;        
-        }
-    }
-    @media (min-width: 80rem) {
-        .cover-container .cover-image {
-            width: 51.25rem !important; 
-        }
-    }
-
-.cover-container .cover-image {
-    margin-bottom: 0rem !important;
-}
 
 /* Header */
     .appbar {
