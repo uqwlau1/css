@@ -30,7 +30,7 @@ Simple UI override
     width: 20rem !important;
 }
 
-.cover-image {
+.cover-image, .done-button {
     display: none !important;
 }
 
