@@ -27,7 +27,7 @@ Simple UI override
 ------ */ 
 
 .details {
-    padding: 20rem !important;
+    width: 20rem !important;
 }
 
 .cover-image {
