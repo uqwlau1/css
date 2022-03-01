@@ -32,6 +32,7 @@ Simple UI override
 
 .cover-image,
 .done-button,
+.ticket-availability-banner,
 .inner .check{
     display: none !important;
 }
