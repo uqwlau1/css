@@ -238,7 +238,8 @@ display: none !important;
 }
 
 /* AttendeeLink page */
-bt-event-attendeelink-main {
+bt-event-attendeelink-main,
+bt-survey-main {
     background: #51247a url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.png) no-repeat 15px 15px !important;
     background: #51247a url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.svg) no-repeat 15px 15px !important;
     background-size: 180px !important;
