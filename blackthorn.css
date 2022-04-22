@@ -26,10 +26,6 @@
 Simple UI override 
 ------ */ 
 
-body {
-  background: #51247a;
-}
-
 .details {
     width: 20rem !important;
 }
@@ -120,7 +116,7 @@ BYO-CSS UI override
         flex: none !important;
     }
     .content-container {
-        padding: 100px 0 0px !important;
+        padding: 100px 0 !important;
     }
    
     #main .price {
