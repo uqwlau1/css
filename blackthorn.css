@@ -26,6 +26,10 @@
 Simple UI override 
 ------ */ 
 
+body {
+  background: #51247a;
+}
+
 .details {
     width: 20rem !important;
 }
