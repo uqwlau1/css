@@ -245,3 +245,10 @@ bt-survey-main {
     background-size: 180px !important;
     display: block !important;
 }
+
+.cancel-button {
+  background: #fff !important;
+  border: #51247a 1px solid !important;
+  color: #51247a !important;
+}
+}
