@@ -260,6 +260,10 @@ bt-survey-main {
     display: block !important;
 }
 
+.ticket-amount {
+    display: none !important;
+}
+
 .cancel-button {
   background: #fff !important;
   border: #51247a 1px solid !important;
