@@ -95,6 +95,10 @@ Simple UI override
   font-size: 1rem !important;
 }
 
+.event-location-details span {
+  display: block !important;
+}
+
 /* ------
 BYO-CSS UI override 
 ------ */ 
