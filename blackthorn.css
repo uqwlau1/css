@@ -143,12 +143,12 @@ BYO-CSS UI override
 /* Header */
     .appbar {
       background: #51247a !important;
-      padding: 15px 0px !important;
+      padding: 15px 0px 0px !important;
     }
     .appbar-header {
       height: 55px !important;
       max-width: 76rem !important;
-      margin: 0px auto !important;
+      margin: 0px auto 15px !important;
       align-items: center !important;
       box-sizing: border-box !important;
       background-size: 180px !important;
