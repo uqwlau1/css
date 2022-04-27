@@ -270,3 +270,7 @@ bt-survey-main {
 div.appbar+#main div.header {
    background: #fff !important;
 }
+
+.bt-card.cart-details {
+   display: block !important;
+}
