@@ -267,3 +267,6 @@ bt-survey-main {
 }
 
 /* Waitlist page */
+div.appbar+#main div.header {
+   background: #fff !important;
+}
