@@ -274,3 +274,7 @@ div.appbar+#main div.header {
 #main .bt-card.cart-details {
    display: block !important;
 }
+
+bt-event-attendee-question .container {
+   padding: 0px !important;
+}
