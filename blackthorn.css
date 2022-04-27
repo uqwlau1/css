@@ -260,19 +260,27 @@ bt-survey-main {
     display: block !important;
 }
 
-.ticket-amount {
-    display: none !important;
-}
-
 .cancel-button {
   background: #fff !important;
-  border: #51247a 1px solid !important;
+  border: #51247a 2px solid !important;
   color: #51247a !important;
 }
 
 /* Waitlist page */
 div.appbar+#main div.header {
    background: #fff !important;
+}
+
+.ticket-amount,
+.ticket-icon,
+.join-waitlist-button .mat-button-wrapper:before,
+bt-event-attendee-edit .material-icons {
+    display: none !important;
+}
+
+.join-waitlist-button {
+  border: #51247a 2px solid !important;
+  color: #51247a !important;
 }
 
 #main .bt-card.cart-details {
