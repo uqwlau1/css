@@ -275,8 +275,15 @@ div.appbar+#main div.header {
 .ticket-icon,
 .join-waitlist-button .mat-button-wrapper:before,
 bt-event-attendee-edit .material-icons,
-.cart-footer {
+.cart-footer,
+.checkout-wrapper .title-section,
+.checkout-wrapper .cart-section,
+.checkout-wrapper .total {
     display: none !important;
+}
+
+.totals-section {
+  border: none !important;
 }
 
 .join-waitlist-button {
