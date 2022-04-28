@@ -274,7 +274,8 @@ div.appbar+#main div.header {
 .ticket-amount,
 .ticket-icon,
 .join-waitlist-button .mat-button-wrapper:before,
-bt-event-attendee-edit .material-icons {
+bt-event-attendee-edit .material-icons,
+.cart-footer {
     display: none !important;
 }
 
