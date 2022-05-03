@@ -301,3 +301,14 @@ bt-event-attendee-edit .material-icons,
 bt-event-attendee-question .container {
    padding: 0px !important;
 }
+
+/* Event group page */
+.Calendar .FilterPanel {
+  background: #51247a url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.png) no-repeat 15px 15px !important;
+  display: block !important;
+}
+
+.Calendar .FilterPanel .ui-switcher .mat-icon,
+bt-event-listing .appbar-header .ui-switcher .mat-icon,{
+  color: #ffffff !important;
+}
