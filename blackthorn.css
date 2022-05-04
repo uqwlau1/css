@@ -273,6 +273,10 @@ bt-event-attendeelink-main .main .welcome .actions {
   display: block !important;
 }
 
+bt-event-attendeelink-main .main .welcome .actions span:first-child{
+  display: none !important;
+}
+
 .cancel-button {
   background: #fff !important;
   border: #51247a 2px solid !important;
