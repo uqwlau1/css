@@ -262,6 +262,15 @@ bt-survey-main {
 
 bt-event-attendeelink-main .main .welcome {
   background: #2377cb !important;
+  display: block !important;
+  padding: 0px !important;
+}
+
+bt-event-attendeelink-main .main .welcome .attendee-link-main .message .ng-star-inserted,
+bt-event-attendeelink-main .main .welcome .attendee-link-main .message .rsvp,
+bt-event-attendeelink-main .main .welcome .actions {
+  padding: 0.5rem 0.75rem !important;
+  display: block !important;
 }
 
 .cancel-button {
