@@ -273,7 +273,7 @@ bt-event-attendeelink-main .main .welcome .actions {
   display: block !important;
 }
 
-bt-event-attendeelink-main .main .welcome .actions span:first-child{
+bt-event-attendeelink-main .main .welcome .actions > span{
   display: none !important;
 }
 
