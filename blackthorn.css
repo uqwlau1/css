@@ -307,14 +307,12 @@ bt-event-attendee-question .container {
 }
 
 /* Event group page */
-.Calendar .FilterPanel {
-  background: #51247a url(https://static.uq.net.au/v11/logos/corporate/uq-logo--reversed.png) no-repeat 15px 15px !important;
-  display: block !important;
+bt-event-listing .appbar {
+  background: #ffffff !important;
 }
 
-.Calendar .FilterPanel .ui-switcher .mat-icon,
-bt-event-listing .appbar-header .ui-switcher .mat-icon,{
-  color: #ffffff !important;
+bt-event-listing .appbar .container {
+  display: contents !important;
 }
 
 bt-event-listing .product-item__price {
@@ -331,14 +329,14 @@ bt-event-listing .product-item__imgContainer {
   display: none !important;
 }
 
-.page-event-group {
+bt-event-listing .page-event-group {
   background: #ffffff !important;
 }
 
-.bt-event-listing .card {
+bt-event-listing .card {
   box-shadow: none !important;
 }
 
-.bt-event-listing .card-event-group-description {
+bt-event-listing .card-event-group-description {
   padding: 1rem 0 !important;
 }
