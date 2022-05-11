@@ -324,8 +324,21 @@ bt-event-listing .product-item__price {
 
 bt-event-listing .product-item__eventDetails {
   max-width: 100% !important;
+  padding-top: 2rem !important;
 }
 
 bt-event-listing .product-item__imgContainer {
   display: none !important;
+}
+
+.page-event-group {
+  background: #ffffff !important;
+}
+
+.bt-event-listing .card {
+  box-shadow: none !important;
+}
+
+.bt-event-listing .card-event-group-description {
+  padding: 1rem 0 !important;
 }
