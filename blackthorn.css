@@ -307,9 +307,12 @@ bt-event-attendee-question .container {
 }
 
 /* Event group page */
+bt-event-listing .card,
 bt-event-listing .appbar {
   background: #ffffff !important;
+  box-shadow: none !important;
 }
+
 
 bt-event-listing .appbar .container {
   display: contents !important;
@@ -329,12 +332,8 @@ bt-event-listing .product-item__imgContainer {
   display: none !important;
 }
 
-bt-event-listing .page-event-group {
+.page-event-group {
   background: #ffffff !important;
-}
-
-bt-event-listing .card {
-  box-shadow: none !important;
 }
 
 bt-event-listing .card-event-group-description {
