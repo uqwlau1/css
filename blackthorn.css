@@ -316,3 +316,16 @@ bt-event-attendee-question .container {
 bt-event-listing .appbar-header .ui-switcher .mat-icon,{
   color: #ffffff !important;
 }
+
+bt-event-listing .product-item__price {
+  margin: -.75rem 0rem !important;
+  right: 0 !important;
+}
+
+bt-event-listing .product-item__eventDetails {
+  max-width: 100% !important;
+}
+
+bt-event-listing .product-item__imgContainer {
+  display: none !important;
+}
