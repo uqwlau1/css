@@ -337,5 +337,6 @@ bt-event-listing .product-item__imgContainer {
 }
 
 bt-event-listing .card-event-group-description {
-  padding: 1rem 0 !important;
+  background: #f7f6f5 !important;
+  padding: 1.5rem !important;
 }
