@@ -270,6 +270,7 @@ bt-survey-main {
 
 bt-event-attendeelink-main .main .welcome {
   background: #2377cb !important;
+  padding: 0 1rem !important;
 }
 
 .cancel-button {
